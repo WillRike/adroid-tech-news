@@ -39,10 +39,6 @@ class VisualizaNoticiaActivity : AppCompatActivity() {
         setContentView(R.layout.activity_visualiza_noticia)
         title = TITULO_APPBAR
         verificaIdDaNoticia()
-    }
-
-    override fun onResume() {
-        super.onResume()
         buscaNoticiaSelecionada()
     }
 
@@ -60,7 +56,7 @@ class VisualizaNoticiaActivity : AppCompatActivity() {
     }
 
     private fun buscaNoticiaSelecionada() {
-        viewModel.buscaPorId().observe(this, Observer { noticiaEncontrada ->
+        viewModel.noticiaEncotrada.observe(this, Observer { noticiaEncontrada ->
             noticiaEncontrada?.let {
                 this.noticia = it
                 preencheCampos(it)
