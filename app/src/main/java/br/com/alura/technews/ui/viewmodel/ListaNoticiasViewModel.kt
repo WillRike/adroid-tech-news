@@ -10,8 +10,8 @@ class ListaNoticiasViewModel(
     private val repository: NoticiaRepository
 ) : ViewModel() {
 
-
-    fun buscaTodos(): LiveData<Resource<List<Noticia>?>> {
+    fun buscaTodos() : LiveData<Resource<List<Noticia>?>> {
         return repository.buscaTodos()
     }
+
 }
