@@ -8,6 +8,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/willensantos/AndroidStudioProjects/TechNews/adroid-tech-news/app/src/main/res/layout-land/activity_noticias.xml" value="0.2" />
+        <entry key="..\:/Users/willensantos/AndroidStudioProjects/TechNews/adroid-tech-news/app/src/main/res/layout-land/item_noticia.xml" value="0.4" />
         <entry key="..\:/Users/willensantos/AndroidStudioProjects/TechNews/adroid-tech-news/app/src/main/res/layout/activity_lista_noticias.xml" value="0.3625" />
         <entry key="..\:/Users/willensantos/AndroidStudioProjects/TechNews/adroid-tech-news/app/src/main/res/layout/activity_noticias.xml" value="0.3212962962962963" />
         <entry key="..\:/Users/willensantos/AndroidStudioProjects/TechNews/adroid-tech-news/app/src/main/res/layout/activity_visualiza_noticia.xml" value="0.3212962962962963" />
